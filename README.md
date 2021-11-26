@@ -20,4 +20,13 @@ This app template using this packages:
 "tailwindcss": "^2.2.19"
 ```
 
+Second, Change Default Props inside components/Layout.js:
 
+```
+  Layout.defaultProps = {
+    title: "Enter Your Default App Name",
+    keywords: "Default, keywords, keyword",
+    description:
+      "App Default Description.",
+      };
+```
